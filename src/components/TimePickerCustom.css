@@ -1,0 +1,43 @@
+.vibrant-time-picker {
+  border-radius: 4px !important;
+  border: 1px solid #1976d2 !important;
+  background: linear-gradient(90deg, #e3f2fd 60%, #fffde7 100%) !important;
+  color: #1976d2 !important;
+  font-weight: 600 !important;
+  font-size: 0.85em !important;
+  padding: 1px 4px !important;
+  transition: border 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 2px rgba(25, 118, 210, 0.07);
+  min-width: 38px;
+  max-width: 60px;
+  height: 22px;
+}
+
+.vibrant-time-picker:focus, .vibrant-time-picker:active {
+  border: 1px solid #f06292 !important;
+  box-shadow: 0 0 0 2px #f0629222;
+  outline: none !important;
+}
+
+.react-time-picker__wrapper {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  min-height: 18px;
+}
+
+.react-time-picker__inputGroup__input {
+  background: transparent !important;
+  color: #1976d2 !important;
+  font-weight: 600 !important;
+  font-size: 0.85em !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0 1px !important;
+  height: 16px;
+}
+
+.react-time-picker__clock,
+.react-time-picker__button {
+  display: none !important; /* Hide the clock icon and popup */
+}
